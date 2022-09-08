@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.pantheon.PantheonTest" time="139.219" tests="22" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Volumes/Data/Sauce/Pantheon-Demo"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Volumes/Data/Sauce/Pantheon-Demo"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/yf/7894dgsj0vd0r75b7tfbsty00000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Library/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/frankleyenaar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Library/apache-maven-3.6.3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.16"/>
+    <property name="library.jansi.path" value="/Library/apache-maven-3.6.3/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/frankleyenaar"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="frankleyenaar"/>
+    <property name="java.class.path" value="/Library/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="java.ext.dirs" value="/Users/frankleyenaar/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Library/apache-maven-3.6.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="PantheonPageTitle" classname="com.pantheon.PantheonTest" time="13.967"/>
+  <testcase name="PantheonPageTitle" classname="com.pantheon.PantheonTest" time="0.233"/>
+  <testcase name="PantheonPageTitle" classname="com.pantheon.PantheonTest" time="3.258"/>
+  <testcase name="PantheonPageTitle" classname="com.pantheon.PantheonTest" time="3.592"/>
+  <testcase name="PantheonPageTitle" classname="com.pantheon.PantheonTest" time="8.719"/>
+  <testcase name="PantheonPageTitle" classname="com.pantheon.PantheonTest" time="8.776"/>
+  <testcase name="PantheonPageTitle" classname="com.pantheon.PantheonTest" time="9.706"/>
+  <testcase name="PantheonPageTitle" classname="com.pantheon.PantheonTest" time="22.852"/>
+  <testcase name="PantheonPageTitle" classname="com.pantheon.PantheonTest" time="37.193"/>
+  <testcase name="PantheonPageTitle" classname="com.pantheon.PantheonTest" time="63.676"/>
+  <testcase name="PantheonPageTitle" classname="com.pantheon.PantheonTest" time="71.752"/>
+  <testcase name="PantheonWhy" classname="com.pantheon.PantheonTest" time="2.797">
+    <failure message="element click intercepted: Element &lt;a href=&quot;/why-pantheon&quot; class=&quot;z2-footer__primary-menu-group-item-link&quot;&gt;...&lt;/a&gt; is not clickable at point (178, 640). Other element would receive the click: &lt;ul class=&quot;z2-footer__primary-menu-group-item-list&quot;&gt;...&lt;/ul&gt;&#10;  (Session info: MicrosoftEdge=97.0.1072.55)&#10;  (Driver info: msedgedriver=97.0.1072.55 (ce3bf3364880558d4945082f4ac36e01fe36716e),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;SL-1549.local&apos;, ip: &apos;fe80:0:0:0:a6:ad74:b699:975f%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: msedge, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasMetadata: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, ms:edgeOptions: {debuggerAddress: localhost:64330}, msedge: {msedgedriverVersion: 97.0.1072.55 (ce3bf33648805..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 97.0.1072.55, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 605d6e2d607a435cb5a02b2152a...}&#10;Session ID: 605d6e2d607a435cb5a02b2152a8b1ca" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="/why-pantheon" class="z2-footer__primary-menu-group-item-link">...</a> is not clickable at point (178, 640). Other element would receive the click: <ul class="z2-footer__primary-menu-group-item-list">...</ul>
+  (Session info: MicrosoftEdge=97.0.1072.55)
+  (Driver info: msedgedriver=97.0.1072.55 (ce3bf3364880558d4945082f4ac36e01fe36716e),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:a6:ad74:b699:975f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: msedge, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasMetadata: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, ms:edgeOptions: {debuggerAddress: localhost:64330}, msedge: {msedgedriverVersion: 97.0.1072.55 (ce3bf33648805..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 97.0.1072.55, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 605d6e2d607a435cb5a02b2152a...}
+Session ID: 605d6e2d607a435cb5a02b2152a8b1ca
+	at com.pantheon.PantheonTest.PantheonWhy(PantheonTest.java:135)
+]]></failure>
+    <system-out><![CDATA[WebDriverRemoteWebDriver: firefox on ANY (cfc5f3b7d31d43e287461049d8c3725f)
+SauceOnDemandSessionID=cfc5f3b7d31d43e287461049d8c3725f job-name=PantheonWhy
+WebDriverRemoteWebDriver: chrome on WINDOWS (8a4e44d1626c49c99885be9b107b4ddc)
+SauceOnDemandSessionID=8a4e44d1626c49c99885be9b107b4ddc job-name=PantheonPageTitle
+WebDriverRemoteWebDriver: firefox on ANY (6698ef7308544c4294c0e82fad1d964d)
+SauceOnDemandSessionID=6698ef7308544c4294c0e82fad1d964d job-name=PantheonPageTitle
+WebDriverRemoteWebDriver: Safari on MAC (c5853abee17d4c06a245777fde184537)
+SauceOnDemandSessionID=c5853abee17d4c06a245777fde184537 job-name=PantheonWhy
+WebDriverRemoteWebDriver: chrome on WINDOWS (d858aaafc3244514b8c8053f3938a05e)
+SauceOnDemandSessionID=d858aaafc3244514b8c8053f3938a05e job-name=PantheonWhy
+]]></system-out>
+    <system-err><![CDATA[Feb 03, 2022 12:59:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 03, 2022 12:59:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 03, 2022 12:59:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 03, 2022 12:59:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 03, 2022 12:59:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="PantheonWhy" classname="com.pantheon.PantheonTest" time="3.186"/>
+  <testcase name="PantheonWhy" classname="com.pantheon.PantheonTest" time="5.781">
+    <failure message="&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:13:22.693Z&apos;&#10;System info: host: &apos;itako5416.prod.miso&apos;, ip: &apos;fe80:0:0:0:4f5:ef8e:bcec:e922%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: driver.version: unknown&#10;Command duration or timeout: 0 milliseconds" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'itako5416.prod.miso', ip: 'fe80:0:0:0:4f5:ef8e:bcec:e922%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '9.0.4'
+Driver info: driver.version: unknown
+Command duration or timeout: 0 milliseconds
+	at com.pantheon.PantheonTest.PantheonWhy(PantheonTest.java:135)
+Caused by: org.openqa.selenium.WebDriverException: 
+
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'itako5416.prod.miso', ip: 'fe80:0:0:0:4f5:ef8e:bcec:e922%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '9.0.4'
+Driver info: driver.version: unknown
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:a6:ad74:b699:975f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: driver.version: unknown
+</failure>
+    <system-out><![CDATA[WebDriverRemoteWebDriver: chrome on MAC (268c2193d7fb4e15ba78fda14e4f0372)
+SauceOnDemandSessionID=268c2193d7fb4e15ba78fda14e4f0372 job-name=PantheonWhy
+WebDriverRemoteWebDriver: Chrome on LINUX (46dce941-f3a0-415f-ba00-a59ab63b039e)
+SauceOnDemandSessionID=46dce941-f3a0-415f-ba00-a59ab63b039e job-name=PantheonPageTitle
+]]></system-out>
+    <system-err><![CDATA[Feb 03, 2022 12:59:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 03, 2022 12:59:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="PantheonWhy" classname="com.pantheon.PantheonTest" time="8.626"/>
+  <testcase name="PantheonWhy" classname="com.pantheon.PantheonTest" time="13.153">
+    <failure message="Element &lt;a class=&quot;z2-footer__primary-menu-group-item-link&quot; href=&quot;/why-pantheon&quot;&gt; is not clickable at point (179,651) because another element &lt;div class=&quot;optanon-clearfix optanon-alert-box-bottom-padding&quot;&gt; obscures it&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;itako8455.prod.miso&apos;, ip: &apos;fe80:0:0:0:480:4b2d:73e:97da%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=/var/folders/d2/qw7q16_j7yb7yk5r6b8sl0n40000kr/T/rust_mozprofilekcYzc7, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=96.0, moz:shutdownTimeout=60000.0, platformVersion=18.0.0, moz:processID=4206.0, browserName=firefox, moz:buildID=20220106144528, javascriptEnabled=true, platformName=mac, setWindowRect=true, moz:webdriverClick=true}]&#10;Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX2d885c22&#10;Command duration or timeout: 0 milliseconds" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Element <a class="z2-footer__primary-menu-group-item-link" href="/why-pantheon"> is not clickable at point (179,651) because another element <div class="optanon-clearfix optanon-alert-box-bottom-padding"> obscures it
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'itako8455.prod.miso', ip: 'fe80:0:0:0:480:4b2d:73e:97da%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/d2/qw7q16_j7yb7yk5r6b8sl0n40000kr/T/rust_mozprofilekcYzc7, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=96.0, moz:shutdownTimeout=60000.0, platformVersion=18.0.0, moz:processID=4206.0, browserName=firefox, moz:buildID=20220106144528, javascriptEnabled=true, platformName=mac, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX2d885c22
+Command duration or timeout: 0 milliseconds
+	at com.pantheon.PantheonTest.PantheonWhy(PantheonTest.java:135)
+Caused by: org.openqa.selenium.WebDriverException: 
+Element <a class="z2-footer__primary-menu-group-item-link" href="/why-pantheon"> is not clickable at point (179,651) because another element <div class="optanon-clearfix optanon-alert-box-bottom-padding"> obscures it
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'itako8455.prod.miso', ip: 'fe80:0:0:0:480:4b2d:73e:97da%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/d2/qw7q16_j7yb7yk5r6b8sl0n40000kr/T/rust_mozprofilekcYzc7, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=96.0, moz:shutdownTimeout=60000.0, platformVersion=18.0.0, moz:processID=4206.0, browserName=firefox, moz:buildID=20220106144528, javascriptEnabled=true, platformName=mac, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX2d885c22
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:a6:ad74:b699:975f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: driver.version: RemoteWebDriver
+]]></failure>
+  </testcase>
+  <testcase name="PantheonWhy" classname="com.pantheon.PantheonTest" time="23.82">
+    <failure message="Element &lt;a class=&quot;z2-footer__primary-menu-group-item-link&quot; href=&quot;/why-pantheon&quot;&gt; is not clickable at point (178,670) because another element &lt;p id=&quot;alert-box-message&quot; class=&quot;banner-content&quot;&gt; obscures it&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;SAUCE-WIN10&apos;, ip: &apos;10.119.47.113&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\sauce\AppData\Local\Temp\rust_mozprofileHCewXQ, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=94.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=5384.0, browserName=firefox, moz:buildID=20211028161635, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]&#10;Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX46924a7d&#10;Command duration or timeout: 0 milliseconds" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Element <a class="z2-footer__primary-menu-group-item-link" href="/why-pantheon"> is not clickable at point (178,670) because another element <p id="alert-box-message" class="banner-content"> obscures it
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SAUCE-WIN10', ip: '10.119.47.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sauce\AppData\Local\Temp\rust_mozprofileHCewXQ, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=94.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=5384.0, browserName=firefox, moz:buildID=20211028161635, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX46924a7d
+Command duration or timeout: 0 milliseconds
+	at com.pantheon.PantheonTest.PantheonWhy(PantheonTest.java:135)
+Caused by: org.openqa.selenium.WebDriverException: 
+Element <a class="z2-footer__primary-menu-group-item-link" href="/why-pantheon"> is not clickable at point (178,670) because another element <p id="alert-box-message" class="banner-content"> obscures it
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SAUCE-WIN10', ip: '10.119.47.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sauce\AppData\Local\Temp\rust_mozprofileHCewXQ, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=94.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=5384.0, browserName=firefox, moz:buildID=20211028161635, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX46924a7d
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:a6:ad74:b699:975f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: driver.version: RemoteWebDriver
+]]></failure>
+  </testcase>
+  <testcase name="PantheonWhy" classname="com.pantheon.PantheonTest" time="24.357"/>
+  <testcase name="PantheonWhy" classname="com.pantheon.PantheonTest" time="55.762">
+    <failure message="element click intercepted: Element &lt;a href=&quot;/why-pantheon&quot; class=&quot;z2-footer__primary-menu-group-item-link&quot;&gt;...&lt;/a&gt; is not clickable at point (180, 610). Other element would receive the click: &lt;div class=&quot;optanon-clearfix optanon-alert-box-bottom-padding&quot;&gt;&lt;/div&gt;&#10;  (Session info: chrome=76.0.3809.87)&#10;  (Driver info: chromedriver=76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;SL-1549.local&apos;, ip: &apos;fe80:0:0:0:a6:ad74:b699:975f%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /var/folders/x8/0hf91b3x6n5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64533}, handlesAlerts: true, hasMetadata: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 76.0.3809.87, webStorageEnabled: true, webdriver.remote.sessionid: 268c2193d7fb4e15ba78fda14e4...}&#10;Session ID: 268c2193d7fb4e15ba78fda14e4f0372" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="/why-pantheon" class="z2-footer__primary-menu-group-item-link">...</a> is not clickable at point (180, 610). Other element would receive the click: <div class="optanon-clearfix optanon-alert-box-bottom-padding"></div>
+  (Session info: chrome=76.0.3809.87)
+  (Driver info: chromedriver=76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:a6:ad74:b699:975f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /var/folders/x8/0hf91b3x6n5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64533}, handlesAlerts: true, hasMetadata: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 76.0.3809.87, webStorageEnabled: true, webdriver.remote.sessionid: 268c2193d7fb4e15ba78fda14e4...}
+Session ID: 268c2193d7fb4e15ba78fda14e4f0372
+	at com.pantheon.PantheonTest.PantheonWhy(PantheonTest.java:135)
+]]></failure>
+  </testcase>
+  <testcase name="PantheonWhy" classname="com.pantheon.PantheonTest" time="63.93"/>
+  <testcase name="PantheonWhy" classname="com.pantheon.PantheonTest" time="118.659">
+    <failure message="element click intercepted: Element &lt;a href=&quot;/why-pantheon&quot; class=&quot;z2-footer__primary-menu-group-item-link&quot;&gt;...&lt;/a&gt; is not clickable at point (85, 590). Other element would receive the click: &lt;p class=&quot;banner-content&quot; id=&quot;alert-box-message&quot;&gt;...&lt;/p&gt;&#10;  (Session info: chrome=97.0.4692.98)&#10;  (Driver info: chromedriver=97.0.4692.36 (747e0a0f19c13ca6ee136200f5b097448ae4892f-refs/branch-heads/4692@{#607}),platform=Linux 4.15.0-136-generic x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;SL-1549.local&apos;, ip: &apos;fe80:0:0:0:a6:ad74:b699:975f%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., adbPort: 15001, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, chromeOptions: {w3c: false}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26010, 26020]], databaseEnabled: false, desired: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., adbPort: 15001, browserName: Chrome, chromeOptions: {w3c: false}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26010, 26020]], deviceName: Samsung_Galaxy_S6_Edge_Plus..., name: PantheonWhy, platformName: Android, suppressKillServer: true, systemPort: 8201, testobject_device: Samsung.*, testobject_platform_name: Android, testobject_test_name: PantheonWhy, uiautomator2ServerInstallTimeout: 60000, username: SauceFrank}, deviceApiLevel: 23, deviceContextId: a4a95a6e-e28d-4bda-9a32-667..., deviceManufacturer: samsung, deviceModel: SAMSUNG-SM-G928A, deviceName: 10.101.64.14:16010, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: 10.101.64.14:16010, javascriptEnabled: true, locationContextEnabled: false, name: PantheonWhy, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 6.0.1, statBarHeight: 84, suppressKillServer: true, systemPort: 8201, takesScreenshot: true, testobject_device: Samsung_Galaxy_S6_Edge_Plus..., testobject_device_name: Samsung Galaxy S6 Edge+, testobject_device_session_id: ee19cb5e-d1f5-4168-8811-eea..., testobject_platform_name: Android, testobject_project_id: saucelabs-default, testobject_test_name: PantheonWhy, testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_id: 34795, testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: SauceFrank, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, username: SauceFrank, viewportRect: {height: 2476, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}&#10;Session ID: ea919f3b-a826-4bd2-b9b4-66cbeb585aa5" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="/why-pantheon" class="z2-footer__primary-menu-group-item-link">...</a> is not clickable at point (85, 590). Other element would receive the click: <p class="banner-content" id="alert-box-message">...</p>
+  (Session info: chrome=97.0.4692.98)
+  (Driver info: chromedriver=97.0.4692.36 (747e0a0f19c13ca6ee136200f5b097448ae4892f-refs/branch-heads/4692@{#607}),platform=Linux 4.15.0-136-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:a6:ad74:b699:975f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., adbPort: 15001, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, chromeOptions: {w3c: false}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26010, 26020]], databaseEnabled: false, desired: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., adbPort: 15001, browserName: Chrome, chromeOptions: {w3c: false}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26010, 26020]], deviceName: Samsung_Galaxy_S6_Edge_Plus..., name: PantheonWhy, platformName: Android, suppressKillServer: true, systemPort: 8201, testobject_device: Samsung.*, testobject_platform_name: Android, testobject_test_name: PantheonWhy, uiautomator2ServerInstallTimeout: 60000, username: SauceFrank}, deviceApiLevel: 23, deviceContextId: a4a95a6e-e28d-4bda-9a32-667..., deviceManufacturer: samsung, deviceModel: SAMSUNG-SM-G928A, deviceName: 10.101.64.14:16010, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: 10.101.64.14:16010, javascriptEnabled: true, locationContextEnabled: false, name: PantheonWhy, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 6.0.1, statBarHeight: 84, suppressKillServer: true, systemPort: 8201, takesScreenshot: true, testobject_device: Samsung_Galaxy_S6_Edge_Plus..., testobject_device_name: Samsung Galaxy S6 Edge+, testobject_device_session_id: ee19cb5e-d1f5-4168-8811-eea..., testobject_platform_name: Android, testobject_project_id: saucelabs-default, testobject_test_name: PantheonWhy, testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_id: 34795, testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: SauceFrank, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, username: SauceFrank, viewportRect: {height: 2476, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: ea919f3b-a826-4bd2-b9b4-66cbeb585aa5
+	at com.pantheon.PantheonTest.PantheonWhy(PantheonTest.java:135)
+]]></failure>
+    <system-out><![CDATA[WebDriverRemoteWebDriver: Chrome on LINUX (ea919f3b-a826-4bd2-b9b4-66cbeb585aa5)
+SauceOnDemandSessionID=ea919f3b-a826-4bd2-b9b4-66cbeb585aa5 job-name=PantheonWhy
+]]></system-out>
+    <system-err><![CDATA[Feb 03, 2022 1:01:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="PantheonWhy" classname="com.pantheon.PantheonTest" time="120.552"/>
+</testsuite>

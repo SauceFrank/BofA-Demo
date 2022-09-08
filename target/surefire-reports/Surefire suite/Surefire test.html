@@ -1,0 +1,189 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Sep 08 13:56:54 EDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>187 seconds (187437 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.bofa.BofATest.BofAFunc()'><b>BofAFunc</b><br>Test class: com.bofa.BofATest<br>Parameters: browser, MicrosoftEdge, latest, Windows 10, , public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>25</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+<tr>
+<td title='com.bofa.BofATest.BofAFunc()'><b>BofAFunc</b><br>Test class: com.bofa.BofATest<br>Parameters: browser, firefox, 55.0, Windows 7, , public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>25</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+<tr>
+<td title='com.bofa.BofATest.BofAFunc()'><b>BofAFunc</b><br>Test class: com.bofa.BofATest<br>Parameters: browser, safari, latest, macOS 10.13, , public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>28</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+<tr>
+<td title='com.bofa.BofATest.BofAFunc()'><b>BofAFunc</b><br>Test class: com.bofa.BofATest<br>Parameters: browser, internet explorer, 11, Windows 8.1, , public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>29</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+<tr>
+<td title='com.bofa.BofATest.BofAFunc()'><b>BofAFunc</b><br>Test class: com.bofa.BofATest<br>Parameters: browser, firefox, latest-2, Windows 10, , public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>34</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+<tr>
+<td title='com.bofa.BofATest.BofAFunc()'><b>BofAFunc</b><br>Test class: com.bofa.BofATest<br>Parameters: device, , , Android, Samsung.*, public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>39</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+<tr>
+<td title='com.bofa.BofATest.BofAFunc()'><b>BofAFunc</b><br>Test class: com.bofa.BofATest<br>Parameters: browser, firefox, latest, macOS 10.14, , public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>51</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+<tr>
+<td title='com.bofa.BofATest.BofAFunc()'><b>BofAFunc</b><br>Test class: com.bofa.BofATest<br>Parameters: device, , , iOS, iPhone.*, public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>31</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+<tr>
+<td title='com.bofa.BofATest.BofAFunc()'><b>BofAFunc</b><br>Test class: com.bofa.BofATest<br>Parameters: browser, safari, 11.0, macOS 10.12, , public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>75</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+<tr>
+<td title='com.bofa.BofATest.BofAFunc()'><b>BofAFunc</b><br>Test class: com.bofa.BofATest<br>Parameters: browser, chrome, 76.0, OS X 10.11, , public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>148</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+<tr>
+<td title='com.bofa.BofATest.BofAFunc()'><b>BofAFunc</b><br>Test class: com.bofa.BofATest<br>Parameters: browser, chrome, latest, Windows 10, , public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>186</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+<tr>
+<td title='com.bofa.BofATest.BofAPageTitle()'><b>BofAPageTitle</b><br>Test class: com.bofa.BofATest<br>Parameters: browser, MicrosoftEdge, latest, Windows 10, , public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>13</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+<tr>
+<td title='com.bofa.BofATest.BofAPageTitle()'><b>BofAPageTitle</b><br>Test class: com.bofa.BofATest<br>Parameters: browser, internet explorer, 11, Windows 8.1, , public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>14</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+<tr>
+<td title='com.bofa.BofATest.BofAPageTitle()'><b>BofAPageTitle</b><br>Test class: com.bofa.BofATest<br>Parameters: browser, safari, latest, macOS 10.13, , public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>15</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+<tr>
+<td title='com.bofa.BofATest.BofAPageTitle()'><b>BofAPageTitle</b><br>Test class: com.bofa.BofATest<br>Parameters: browser, firefox, 55.0, Windows 7, , public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>15</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+<tr>
+<td title='com.bofa.BofATest.BofAPageTitle()'><b>BofAPageTitle</b><br>Test class: com.bofa.BofATest<br>Parameters: browser, safari, 11.0, macOS 10.12, , public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>16</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+<tr>
+<td title='com.bofa.BofATest.BofAPageTitle()'><b>BofAPageTitle</b><br>Test class: com.bofa.BofATest<br>Parameters: browser, firefox, latest-2, Windows 10, , public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>21</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+<tr>
+<td title='com.bofa.BofATest.BofAPageTitle()'><b>BofAPageTitle</b><br>Test class: com.bofa.BofATest<br>Parameters: browser, firefox, latest, macOS 10.14, , public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>25</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+<tr>
+<td title='com.bofa.BofATest.BofAPageTitle()'><b>BofAPageTitle</b><br>Test class: com.bofa.BofATest<br>Parameters: device, , , Android, Samsung.*, public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>26</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+<tr>
+<td title='com.bofa.BofATest.BofAPageTitle()'><b>BofAPageTitle</b><br>Test class: com.bofa.BofATest<br>Parameters: device, , , iOS, iPhone.*, public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>18</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+<tr>
+<td title='com.bofa.BofATest.BofAPageTitle()'><b>BofAPageTitle</b><br>Test class: com.bofa.BofATest<br>Parameters: browser, chrome, latest, Windows 10, , public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>62</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+<tr>
+<td title='com.bofa.BofATest.BofAPageTitle()'><b>BofAPageTitle</b><br>Test class: com.bofa.BofATest<br>Parameters: browser, chrome, 76.0, OS X 10.11, , public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>62</td>
+<td>com.bofa.BofATest@880ec60</td></tr>
+</table><p>
+</body>
+</html>

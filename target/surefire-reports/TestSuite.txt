@@ -1,0 +1,165 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 88, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 151.336 sec <<< FAILURE! - in TestSuite
+AuraPageJoin(com.aura.SampleSauceTest)  Time elapsed: 0.361 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: 
+element not interactable
+  (Session info: chrome=97.0.4692.98)
+  (Driver info: chromedriver=97.0.4692.36 (747e0a0f19c13ca6ee136200f5b097448ae4892f-refs/branch-heads/4692@{#607}),platform=Linux 4.15.0-136-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:a6:ad74:b699:975f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., adbPort: 15010, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, chromeOptions: {w3c: false}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26100, 26110]], databaseEnabled: false, desired: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., adbPort: 15010, browserName: Chrome, chromeOptions: {w3c: false}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26100, 26110]], deviceName: Samsung_Galaxy_Note20_5G_re..., name: AuraPageJoin, platformName: Android, suppressKillServer: true, systemPort: 8210, testobject_device: Samsung.*, testobject_platform_name: Android, testobject_test_name: AuraPageJoin, uiautomator2ServerInstallTimeout: 60000, username: SauceFrank}, deviceApiLevel: 30, deviceContextId: 37f055ae-414d-46a0-a8e6-d83..., deviceManufacturer: samsung, deviceModel: SM-N981U1, deviceName: 10.101.64.26:16012, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: 10.101.64.26:16012, javascriptEnabled: true, locationContextEnabled: false, name: AuraPageJoin, networkConnectionEnabled: true, pixelRatio: 2.8125, platform: LINUX, platformName: LINUX, platformVersion: 11, statBarHeight: 92, suppressKillServer: true, systemPort: 8210, takesScreenshot: true, testobject_device: Samsung_Galaxy_Note20_5G_re..., testobject_device_name: Samsung Galaxy Note 20 5G, testobject_device_session_id: c3f5d727-6c11-44a0-98b3-b08..., testobject_platform_name: Android, testobject_project_id: saucelabs-default, testobject_test_name: AuraPageJoin, testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_id: 34739, testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: SauceFrank, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, username: SauceFrank, viewportRect: {height: 2081, left: 0, top: 92, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ee339bd5-dce2-4489-9c9b-f32107f6fbf1
+	at com.aura.SampleSauceTest.AuraPageJoin(SampleSauceTest.java:163)
+
+AuraPageAircraft(com.aura.SampleSauceTest)  Time elapsed: 3.76 sec  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (-130, 37)
+  (Session info: chrome=97.0.4692.98)
+  (Driver info: chromedriver=97.0.4692.36 (747e0a0f19c13ca6ee136200f5b097448ae4892f-refs/branch-heads/4692@{#607}),platform=Linux 4.15.0-136-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:a6:ad74:b699:975f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., adbPort: 15023, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, chromeOptions: {w3c: false}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26230, 26240]], databaseEnabled: false, desired: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., adbPort: 15023, browserName: Chrome, chromeOptions: {w3c: false}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26230, 26240]], deviceName: Samsung_Galaxy_S20_real_us, name: AuraPageAircraft, platformName: Android, suppressKillServer: true, systemPort: 8223, testobject_device: Samsung.*, testobject_platform_name: Android, testobject_test_name: AuraPageAircraft, uiautomator2ServerInstallTimeout: 60000, username: SauceFrank}, deviceApiLevel: 30, deviceContextId: 9ea4e1e6-fe91-4c2c-baca-2fb..., deviceManufacturer: samsung, deviceModel: SM-G981U1, deviceName: 10.101.72.16:16005, deviceScreenDensity: 640, deviceScreenSize: 1440x3200, deviceUDID: 10.101.72.16:16005, javascriptEnabled: true, locationContextEnabled: false, name: AuraPageAircraft, networkConnectionEnabled: true, pixelRatio: 4, platform: LINUX, platformName: LINUX, platformVersion: 11, statBarHeight: 104, suppressKillServer: true, systemPort: 8223, takesScreenshot: true, testobject_device: Samsung_Galaxy_S20_real_us, testobject_device_name: Samsung Galaxy S20, testobject_device_session_id: 0ef1371f-0ace-4234-b7df-cf6..., testobject_platform_name: Android, testobject_project_id: saucelabs-default, testobject_test_name: AuraPageAircraft, testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_id: 34741, testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: SauceFrank, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, username: SauceFrank, viewportRect: {height: 2800, left: 0, top: 104, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: e5c96ac6-061e-41e3-b8da-5eb1f0365daf
+	at com.aura.SampleSauceTest.AuraPageAircraft(SampleSauceTest.java:135)
+
+PantheonWhy(com.pantheon.PantheonTest)  Time elapsed: 5.251 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'itako3911.prod.miso', ip: 'fe80:0:0:0:1015:977c:7c26:7c42%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '9.0.4'
+Driver info: driver.version: unknown
+Command duration or timeout: 0 milliseconds
+	at com.pantheon.PantheonTest.PantheonWhy(PantheonTest.java:135)
+Caused by: org.openqa.selenium.WebDriverException: 
+
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'itako3911.prod.miso', ip: 'fe80:0:0:0:1015:977c:7c26:7c42%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '9.0.4'
+Driver info: driver.version: unknown
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:a6:ad74:b699:975f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: driver.version: unknown
+
+PantheonWhy(com.pantheon.PantheonTest)  Time elapsed: 9.53 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Element <a class="z2-footer__primary-menu-group-item-link" href="/why-pantheon"> is not clickable at point (179,651) because another element <div class="optanon-clearfix optanon-alert-box-bottom-padding"> obscures it
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'itako812.prod.miso', ip: 'fe80:0:0:0:891:2f2d:edda:bd48%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/d2/qw7q16_j7yb7yk5r6b8sl0n40000kr/T/rust_mozprofileMFPdSF, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=96.0, moz:shutdownTimeout=60000.0, platformVersion=18.0.0, moz:processID=4382.0, browserName=firefox, moz:buildID=20220106144528, javascriptEnabled=true, platformName=mac, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX1bdaf345
+Command duration or timeout: 0 milliseconds
+	at com.pantheon.PantheonTest.PantheonWhy(PantheonTest.java:135)
+Caused by: org.openqa.selenium.WebDriverException: 
+Element <a class="z2-footer__primary-menu-group-item-link" href="/why-pantheon"> is not clickable at point (179,651) because another element <div class="optanon-clearfix optanon-alert-box-bottom-padding"> obscures it
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'itako812.prod.miso', ip: 'fe80:0:0:0:891:2f2d:edda:bd48%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/d2/qw7q16_j7yb7yk5r6b8sl0n40000kr/T/rust_mozprofileMFPdSF, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=96.0, moz:shutdownTimeout=60000.0, platformVersion=18.0.0, moz:processID=4382.0, browserName=firefox, moz:buildID=20220106144528, javascriptEnabled=true, platformName=mac, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX1bdaf345
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:a6:ad74:b699:975f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: driver.version: RemoteWebDriver
+
+AuraPageAirports(com.aura.SampleSauceTest)  Time elapsed: 13.42 sec  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (-130, 77)
+  (Session info: chrome=97.0.4692.98)
+  (Driver info: chromedriver=97.0.4692.36 (747e0a0f19c13ca6ee136200f5b097448ae4892f-refs/branch-heads/4692@{#607}),platform=Linux 4.15.0-136-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:a6:ad74:b699:975f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., adbPort: 15008, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, chromeOptions: {w3c: false}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26080, 26090]], databaseEnabled: false, desired: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., adbPort: 15008, browserName: Chrome, chromeOptions: {w3c: false}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26080, 26090]], deviceName: Samsung_Galaxy_S8_real_us, name: AuraPageAirports, platformName: Android, suppressKillServer: true, systemPort: 8208, testobject_device: Samsung.*, testobject_platform_name: Android, testobject_test_name: AuraPageAirports, uiautomator2ServerInstallTimeout: 60000, username: SauceFrank}, deviceApiLevel: 28, deviceContextId: 0c63a3ea-a798-40c6-98e6-fe7..., deviceManufacturer: samsung, deviceModel: SM-G950U1, deviceName: 10.101.72.14:16018, deviceScreenDensity: 640, deviceScreenSize: 1440x2960, deviceUDID: 10.101.72.14:16018, javascriptEnabled: true, locationContextEnabled: false, name: AuraPageAirports, networkConnectionEnabled: true, pixelRatio: 4, platform: LINUX, platformName: LINUX, platformVersion: 9, statBarHeight: 96, suppressKillServer: true, systemPort: 8208, takesScreenshot: true, testobject_device: Samsung_Galaxy_S8_real_us, testobject_device_name: Samsung Galaxy S8, testobject_device_session_id: 6cea8e79-a0f1-4753-9d1e-8f7..., testobject_platform_name: Android, testobject_project_id: saucelabs-default, testobject_test_name: AuraPageAirports, testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_id: 34743, testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: SauceFrank, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, username: SauceFrank, viewportRect: {height: 2672, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: dc3332af-7eee-4eb8-9482-f145d2ce619b
+	at com.aura.SampleSauceTest.AuraPageAirports(SampleSauceTest.java:142)
+
+PantheonWhy(com.pantheon.PantheonTest)  Time elapsed: 13.421 sec  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="/why-pantheon" class="z2-footer__primary-menu-group-item-link">...</a> is not clickable at point (85, 713). Other element would receive the click: <p class="banner-content" id="alert-box-message">...</p>
+  (Session info: chrome=97.0.4692.98)
+  (Driver info: chromedriver=97.0.4692.36 (747e0a0f19c13ca6ee136200f5b097448ae4892f-refs/branch-heads/4692@{#607}),platform=Linux 4.15.0-136-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:a6:ad74:b699:975f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., adbPort: 15021, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, chromeOptions: {w3c: false}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26210, 26220]], databaseEnabled: false, desired: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., adbPort: 15021, browserName: Chrome, chromeOptions: {w3c: false}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26210, 26220]], deviceName: Samsung_Galaxy_A51_real_us, name: PantheonWhy, platformName: Android, suppressKillServer: true, systemPort: 8221, testobject_device: Samsung.*, testobject_platform_name: Android, testobject_test_name: PantheonWhy, uiautomator2ServerInstallTimeout: 60000, username: SauceFrank}, deviceApiLevel: 29, deviceContextId: ade8b862-3d66-4f78-8a3d-f62..., deviceManufacturer: samsung, deviceModel: SM-A515U, deviceName: 10.101.64.18:16002, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: 10.101.64.18:16002, javascriptEnabled: true, locationContextEnabled: false, name: PantheonWhy, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: LINUX, platformVersion: 10, statBarHeight: 93, suppressKillServer: true, systemPort: 8221, takesScreenshot: true, testobject_device: Samsung_Galaxy_A51_real_us, testobject_device_name: Samsung Galaxy A51, testobject_device_session_id: 574cb4ad-2ea9-419b-a392-b96..., testobject_platform_name: Android, testobject_project_id: saucelabs-default, testobject_test_name: PantheonWhy, testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_id: 34737, testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: SauceFrank, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, username: SauceFrank, viewportRect: {height: 2093, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 012bd3f0-66a3-463a-8685-cb7325ce4ea6
+	at com.pantheon.PantheonTest.PantheonWhy(PantheonTest.java:135)
+
+PantheonWhy(com.pantheon.PantheonTest)  Time elapsed: 16.626 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Element <a class="z2-footer__primary-menu-group-item-link" href="/why-pantheon"> is not clickable at point (178,670) because another element <p id="alert-box-message" class="banner-content"> obscures it
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SAUCE-WIN10', ip: '10.119.50.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sauce\AppData\Local\Temp\rust_mozprofilelgFVEa, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=94.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=5160.0, browserName=firefox, moz:buildID=20211028161635, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX5447c949
+Command duration or timeout: 0 milliseconds
+	at com.pantheon.PantheonTest.PantheonWhy(PantheonTest.java:135)
+Caused by: org.openqa.selenium.WebDriverException: 
+Element <a class="z2-footer__primary-menu-group-item-link" href="/why-pantheon"> is not clickable at point (178,670) because another element <p id="alert-box-message" class="banner-content"> obscures it
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SAUCE-WIN10', ip: '10.119.50.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sauce\AppData\Local\Temp\rust_mozprofilelgFVEa, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=94.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=5160.0, browserName=firefox, moz:buildID=20211028161635, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX5447c949
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:a6:ad74:b699:975f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: driver.version: RemoteWebDriver
+
+AuraPageJoin(com.aura.SampleSauceTest)  Time elapsed: 25.426 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: 
+Element is not currently visible and may not be manipulated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:a6:ad74:b699:975f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., automationName: XCUITest, browserName: safari, commandTimeouts: {default: 60000}, databaseEnabled: false, deviceContextId: 362bc788-114b-461b-913e-85b..., deviceName: fac990d8ae029f34eeb33b959d6..., javascriptEnabled: true, locationContextEnabled: false, name: AuraPageJoin, networkConnectionEnabled: false, orientation: PORTRAIT, platform: MAC, platformName: MAC, platformVersion: 13.5.1, realDevice: true, takesScreenshot: true, testobject_device: iPhone_7_13_5_real_us, testobject_device_name: iPhone 7, testobject_device_session_id: 06449be6-ce70-4e65-b8cc-33b..., testobject_platform_name: iOS, testobject_project_id: saucelabs-default, testobject_test_name: AuraPageJoin, testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_id: 34749, testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: SauceFrank, udid: fac990d8ae029f34eeb33b959d6..., usedCachedDevice: false, username: SauceFrank, webDriverAgentUrl: http://127.0.0.1:5707, webStorageEnabled: false}
+Session ID: 2fdf08ab-473c-46d6-873f-1073b55a9f1a
+	at com.aura.SampleSauceTest.AuraPageJoin(SampleSauceTest.java:163)
+
+AuraPageRoutes(com.aura.SampleSauceTest)  Time elapsed: 28.169 sec  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (-130, 195)
+  (Session info: chrome=98.0.4758.87)
+  (Driver info: chromedriver=98.0.4758.48 (d869ab3eda60629b9fabbd4e30c0f833466c83fd-refs/branch-heads/4758@{#415}),platform=Linux 4.15.0-136-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:a6:ad74:b699:975f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., adbPort: 15025, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, chromeOptions: {w3c: false}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26250, 26260]], databaseEnabled: false, desired: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., adbPort: 15025, browserName: Chrome, chromeOptions: {w3c: false}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26250, 26260]], deviceName: Samsung_Galaxy_A51_real_us, name: AuraPageRoutes, platformName: Android, suppressKillServer: true, systemPort: 8225, testobject_device: Samsung.*, testobject_platform_name: Android, testobject_test_name: AuraPageRoutes, uiautomator2ServerInstallTimeout: 60000, username: SauceFrank}, deviceApiLevel: 29, deviceContextId: 4044b954-7421-4959-b33c-cac..., deviceManufacturer: samsung, deviceModel: SM-A515U, deviceName: 10.101.64.28:16006, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: 10.101.64.28:16006, javascriptEnabled: true, locationContextEnabled: false, name: AuraPageRoutes, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: LINUX, platformVersion: 10, statBarHeight: 93, suppressKillServer: true, systemPort: 8225, takesScreenshot: true, testobject_device: Samsung_Galaxy_A51_real_us, testobject_device_name: Samsung Galaxy A51, testobject_device_session_id: 00dddd9f-4184-4e34-8849-a44..., testobject_platform_name: Android, testobject_project_id: saucelabs-default, testobject_test_name: AuraPageRoutes, testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_id: 34744, testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: SauceFrank, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, username: SauceFrank, viewportRect: {height: 2093, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 210de701-7222-46ca-9c7c-8e5696f2a90d
+	at com.aura.SampleSauceTest.AuraPageRoutes(SampleSauceTest.java:156)
+
+AuraPageGastronomy(com.aura.SampleSauceTest)  Time elapsed: 31.036 sec  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (-130, 116)
+  (Session info: chrome=97.0.4692.98)
+  (Driver info: chromedriver=97.0.4692.36 (747e0a0f19c13ca6ee136200f5b097448ae4892f-refs/branch-heads/4692@{#607}),platform=Linux 4.15.0-136-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:a6:ad74:b699:975f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., adbPort: 15024, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, chromeOptions: {w3c: false}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26240, 26250]], databaseEnabled: false, desired: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., adbPort: 15024, browserName: Chrome, chromeOptions: {w3c: false}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26240, 26250]], deviceName: Samsung_Galaxy_M20_real_us, name: AuraPageGastronomy, platformName: Android, suppressKillServer: true, systemPort: 8224, testobject_device: Samsung.*, testobject_platform_name: Android, testobject_test_name: AuraPageGastronomy, uiautomator2ServerInstallTimeout: 60000, username: SauceFrank}, deviceApiLevel: 29, deviceContextId: aea91320-9790-4f84-8dc4-1a8..., deviceManufacturer: samsung, deviceModel: SM-M205M, deviceName: 10.101.64.26:16016, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: 10.101.64.26:16016, javascriptEnabled: true, locationContextEnabled: false, name: AuraPageGastronomy, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: LINUX, platformVersion: 10, statBarHeight: 85, suppressKillServer: true, systemPort: 8224, takesScreenshot: true, testobject_device: Samsung_Galaxy_M20_real_us, testobject_device_name: Samsung Galaxy M20, testobject_device_session_id: 1ad72641-ff7c-40d2-a5b5-7b2..., testobject_platform_name: Android, testobject_project_id: saucelabs-default, testobject_test_name: AuraPageGastronomy, testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_id: 34740, testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: SauceFrank, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, username: SauceFrank, viewportRect: {height: 2044, left: 0, top: 85, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 5bcbcfed-655c-4db5-9726-bd6878c6b461
+	at com.aura.SampleSauceTest.AuraPageGastronomy(SampleSauceTest.java:149)
+
+PantheonWhy(com.pantheon.PantheonTest)  Time elapsed: 34.598 sec  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="/why-pantheon" class="z2-footer__primary-menu-group-item-link">...</a> is not clickable at point (180, 610). Other element would receive the click: <div class="optanon-clearfix optanon-alert-box-bottom-padding"></div>
+  (Session info: chrome=76.0.3809.87)
+  (Driver info: chromedriver=76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.local', ip: 'fe80:0:0:0:a6:ad74:b699:975f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /var/folders/x8/0hf91b3x6n5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64533}, handlesAlerts: true, hasMetadata: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 76.0.3809.87, webStorageEnabled: true, webdriver.remote.sessionid: 556f67b909894b01a3b9943fce9...}
+Session ID: 556f67b909894b01a3b9943fce93160b
+	at com.pantheon.PantheonTest.PantheonWhy(PantheonTest.java:135)
+

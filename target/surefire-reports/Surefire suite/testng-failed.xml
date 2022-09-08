@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="100" verbose="0" name="Failed suite [Surefire suite]" parallel="methods">
+  <test name="Surefire test(failed)" parallel="methods">
+    <classes>
+      <class name="com.bofa.BofATest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="BofAFunc" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.bofa.BofATest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

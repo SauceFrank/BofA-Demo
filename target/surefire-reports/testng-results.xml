@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="22" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="187437" started-at="2022-09-08T17:56:54Z" finished-at="2022-09-08T18:00:02Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="187437" started-at="2022-09-08T17:56:54Z" finished-at="2022-09-08T18:00:02Z">
+      <class name="com.bofa.BofATest">
+        <test-method status="PASS" signature="BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAPageTitle" duration-ms="15312" started-at="2022-09-08T13:56:54Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T13:57:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[55.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAPageTitle -->
+        <test-method status="PASS" signature="BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAPageTitle" duration-ms="14677" started-at="2022-09-08T13:56:54Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T13:57:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 8.1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAPageTitle -->
+        <test-method status="PASS" signature="BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAFunc" duration-ms="39827" started-at="2022-09-08T13:56:54Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T13:57:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[device]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Samsung.*]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAFunc -->
+        <test-method status="PASS" signature="BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAPageTitle" duration-ms="16098" started-at="2022-09-08T13:56:54Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T13:57:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[macOS 10.12]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAPageTitle -->
+        <test-method status="PASS" signature="BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAPageTitle" duration-ms="62684" started-at="2022-09-08T13:56:54Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T13:57:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[76.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OS X 10.11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAPageTitle -->
+        <test-method status="PASS" signature="BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAFunc" duration-ms="51743" started-at="2022-09-08T13:56:54Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T13:57:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[macOS 10.14]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAFunc -->
+        <test-method status="PASS" signature="BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAPageTitle" duration-ms="13248" started-at="2022-09-08T13:56:54Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T13:57:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MicrosoftEdge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAPageTitle -->
+        <test-method status="PASS" signature="BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAPageTitle" duration-ms="25930" started-at="2022-09-08T13:56:54Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T13:57:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[macOS 10.14]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAPageTitle -->
+        <test-method status="PASS" signature="BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAFunc" duration-ms="25511" started-at="2022-09-08T13:56:54Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T13:57:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[55.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAFunc -->
+        <test-method status="PASS" signature="BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAPageTitle" duration-ms="15143" started-at="2022-09-08T13:56:54Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T13:57:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[macOS 10.13]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAPageTitle -->
+        <test-method status="PASS" signature="BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAFunc" duration-ms="148738" started-at="2022-09-08T13:56:54Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T13:59:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[76.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OS X 10.11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAFunc -->
+        <test-method status="PASS" signature="BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAFunc" duration-ms="29335" started-at="2022-09-08T13:56:54Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T13:57:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 8.1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAFunc -->
+        <test-method status="PASS" signature="BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAPageTitle" duration-ms="26963" started-at="2022-09-08T13:56:54Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T13:57:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[device]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Samsung.*]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAPageTitle -->
+        <test-method status="PASS" signature="BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAFunc" duration-ms="75701" started-at="2022-09-08T13:56:54Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T13:58:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[macOS 10.12]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAFunc -->
+        <test-method status="PASS" signature="BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAPageTitle" duration-ms="21999" started-at="2022-09-08T13:56:54Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T13:57:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest-2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAPageTitle -->
+        <test-method status="PASS" signature="BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAFunc" duration-ms="28958" started-at="2022-09-08T13:56:54Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T13:57:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[macOS 10.13]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAFunc -->
+        <test-method status="PASS" signature="BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAFunc" duration-ms="34710" started-at="2022-09-08T13:56:54Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T13:57:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest-2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAFunc -->
+        <test-method status="PASS" signature="BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAPageTitle" duration-ms="62119" started-at="2022-09-08T13:56:54Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T13:57:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAPageTitle -->
+        <test-method status="PASS" signature="BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAFunc" duration-ms="186227" started-at="2022-09-08T13:56:54Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T14:00:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAFunc -->
+        <test-method status="PASS" signature="BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAFunc" duration-ms="25000" started-at="2022-09-08T13:56:54Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T13:57:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MicrosoftEdge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAFunc -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="1015" started-at="2022-09-08T13:57:08Z" finished-at="2022-09-08T13:57:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAPageTitle status=SUCCESS method=BofATest.BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAPageTitle" duration-ms="18224" started-at="2022-09-08T13:57:09Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T13:57:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[device]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[iPhone.*]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAPageTitle -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="647" started-at="2022-09-08T13:57:09Z" finished-at="2022-09-08T13:57:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAPageTitle status=SUCCESS method=BofATest.BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="650" started-at="2022-09-08T13:57:10Z" finished-at="2022-09-08T13:57:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAPageTitle status=SUCCESS method=BofATest.BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="1069" started-at="2022-09-08T13:57:10Z" finished-at="2022-09-08T13:57:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAPageTitle status=SUCCESS method=BofATest.BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="1322" started-at="2022-09-08T13:57:10Z" finished-at="2022-09-08T13:57:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAPageTitle status=SUCCESS method=BofATest.BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="2960" started-at="2022-09-08T13:57:16Z" finished-at="2022-09-08T13:57:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAPageTitle status=SUCCESS method=BofATest.BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="812" started-at="2022-09-08T13:57:19Z" finished-at="2022-09-08T13:57:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAFunc status=SUCCESS method=BofATest.BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="1003" started-at="2022-09-08T13:57:20Z" finished-at="2022-09-08T13:57:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAFunc status=SUCCESS method=BofATest.BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60]" name="BofAFunc" duration-ms="31147" started-at="2022-09-08T13:57:20Z" data-provider="hardCodedBrowsers" finished-at="2022-09-08T13:57:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[device]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[iPhone.*]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.bofa.BofATest.BofAFunc(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BofAFunc -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="977" started-at="2022-09-08T13:57:20Z" finished-at="2022-09-08T13:57:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAPageTitle status=SUCCESS method=BofATest.BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="937" started-at="2022-09-08T13:57:21Z" finished-at="2022-09-08T13:57:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAPageTitle status=SUCCESS method=BofATest.BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="516" started-at="2022-09-08T13:57:23Z" finished-at="2022-09-08T13:57:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAFunc status=SUCCESS method=BofATest.BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="752" started-at="2022-09-08T13:57:24Z" finished-at="2022-09-08T13:57:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAFunc status=SUCCESS method=BofATest.BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="1406" started-at="2022-09-08T13:57:27Z" finished-at="2022-09-08T13:57:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAPageTitle status=SUCCESS method=BofATest.BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="645" started-at="2022-09-08T13:57:29Z" finished-at="2022-09-08T13:57:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAFunc status=SUCCESS method=BofATest.BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="702" started-at="2022-09-08T13:57:34Z" finished-at="2022-09-08T13:57:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAFunc status=SUCCESS method=BofATest.BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="662" started-at="2022-09-08T13:57:46Z" finished-at="2022-09-08T13:57:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAFunc status=SUCCESS method=BofATest.BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="1732" started-at="2022-09-08T13:57:51Z" finished-at="2022-09-08T13:57:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAFunc status=SUCCESS method=BofATest.BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="388" started-at="2022-09-08T13:57:57Z" finished-at="2022-09-08T13:57:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAPageTitle status=SUCCESS method=BofATest.BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="456" started-at="2022-09-08T13:57:57Z" finished-at="2022-09-08T13:57:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAPageTitle status=SUCCESS method=BofATest.BofAPageTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="1471" started-at="2022-09-08T13:58:10Z" finished-at="2022-09-08T13:58:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAFunc status=SUCCESS method=BofATest.BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="463" started-at="2022-09-08T13:59:23Z" finished-at="2022-09-08T13:59:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAFunc status=SUCCESS method=BofATest.BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bofa.BofATest@880ec60]" name="tearDown" is-config="true" duration-ms="1155" started-at="2022-09-08T14:00:01Z" finished-at="2022-09-08T14:00:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BofAFunc status=SUCCESS method=BofATest.BofAFunc(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.bofa.BofATest@880ec60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bofa.BofATest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
