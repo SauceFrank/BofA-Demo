@@ -11,3 +11,4 @@ COPY pom.xml ${basePath}/pom.xml
 
 RUN mvn dependency:resolve
 RUN mvn test-compile
+RUN mvn test; exit 0
