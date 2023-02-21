@@ -4,6 +4,7 @@ RUN apk update && apk add curl bash && rm -rf /var/cache/apk/*
 
 ARG basePath="/usr/build"
 
+WORKDIR ${basePath}
 COPY src .
 COPY pom.xml .
 
