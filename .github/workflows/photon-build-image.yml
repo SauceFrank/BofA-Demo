@@ -32,8 +32,8 @@ jobs:
           build-args: |
             SAUCE_USERNAME=${{ secrets.SAUCE_USERNAME }}
             SAUCE_ACCESS_KEY=${{ secrets.SAUCE_ACCESS_KEY }}
-            SAUCE_REGION="us-west-1"
-            BUILD_TYPE="ci-github"
+            SAUCE_REGION=us-west-1
+            BUILD_TYPE=ci-github
           cache-from: type=gha
           cache-to: type=gha,mode=max
           platforms: linux/amd64
