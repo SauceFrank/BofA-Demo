@@ -4,6 +4,11 @@ RUN apk update && apk add curl bash && rm -rf /var/cache/apk/*
 
 ARG basePath="/usr/build"
 
+ARG SAUCE_USERNAME
+ARG SAUCE_ACCESS_KEY
+ARG SAUCE_REGION
+ARG BUILD_TYPE
+
 WORKDIR ${basePath}
 
 COPY src ${basePath}/src/.

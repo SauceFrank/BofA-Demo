@@ -4,7 +4,7 @@ region: ${SAUCE_REGION}
 suites:
   - name: photon-java-bofa
     image: suncup/frank-java:0.0.1
-    entrypoint: mvn test
+    entrypoint: mvn --offline test
     env:
       SAUCE_USERNAME: ${SAUCE_USERNAME}
       SAUCE_ACCESS_KEY: ${SAUCE_ACCESS_KEY}
