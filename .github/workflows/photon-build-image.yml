@@ -39,4 +39,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            suncup/frank-java:0.0.1
+            suncup/frank-java:0.0.2

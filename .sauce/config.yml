@@ -3,10 +3,10 @@ kind: imagerunner
 region: ${SAUCE_REGION}
 suites:
   - name: photon-java-bofa
-    image: suncup/frank-java:0.0.1
+    image: suncup/frank-java:0.0.2
     entrypoint: mvn --offline test
     env:
       SAUCE_USERNAME: ${SAUCE_USERNAME}
       SAUCE_ACCESS_KEY: ${SAUCE_ACCESS_KEY}
       SAUCE_REGION: ${SAUCE_REGION}
-      BUILD_TYPE: "hosted"
+      BUILD_TYPE: "photon-ci"
