@@ -19,7 +19,7 @@ public class BofATest {
 //Environment variable for user and Sauce_accesskey
     public String sauce_username = System.getenv("SAUCE_USERNAME");
     public String sauce_accesskey = System.getenv("SAUCE_ACCESS_KEY");
-    public String sauce_region = System.getenv().getOrDefault("SAUCE_REGION", "us-west-1");
+    //public String sauce_region = System.getenv().getOrDefault("SAUCE_REGION", "us-west-1");
     public String build_type = System.getenv().getOrDefault("SAUCE_BUILD_TYPE", "Local");
     public String build = "BofA Demo " + build_type + ' ' + System.currentTimeMillis();
 
@@ -94,7 +94,7 @@ public class BofATest {
 
         //Creates Selenium Driver
         webDriver.set(new RemoteWebDriver(
-                new URL("https://ondemand." + sauce_region + ".saucelabs.com:443/wd/hub"),
+                new URL("https://ondemand." + System.getenv().getOrDefault("SAUCE_REGION", "us-west-1") + ".saucelabs.com:443/wd/hub"),
                 capabilities));
 
         //Keeps track of the unique Selenium session ID used to identify jobs on Sauce Labs
