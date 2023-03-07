@@ -39,4 +39,18 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            suncup/frank-java:0.0.6
+            leyfr01/photon-demo-docker:0.0.7
+      -
+        name: Install saucectl
+        uses: saucelabs/saucectl-run-action@v3
+        with:
+          saucectl-version: latest
+          skip-run: true
+      -
+        name: Run test from CI via Hosted Test Orchestration
+        run: saucectl run
+        env:
+          SAUCE_USERNAME: ${{ secrets.SAUCE_USERNAME }}
+          SAUCE_ACCESS_KEY: ${{ secrets.SAUCE_ACCESS_KEY }}
+          SAUCE_REGION: ${SAUCE_REGION}
+          SAUCE_BUILD_TYPE: "CI Photon"

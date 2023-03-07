@@ -3,7 +3,7 @@ kind: imagerunner
 region: ${SAUCE_REGION}
 suites:
   - name: photon-java-bofa
-    image: suncup/frank-java:0.0.6
+    image: leyfr01/photon-demo-docker:0.0.7
     entrypoint: mvn --offline test
     env:
       SAUCE_USERNAME: ${SAUCE_USERNAME}
