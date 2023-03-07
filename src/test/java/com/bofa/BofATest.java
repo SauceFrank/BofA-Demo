@@ -20,8 +20,8 @@ public class BofATest {
     public String sauce_username = System.getenv("SAUCE_USERNAME");
     public String sauce_accesskey = System.getenv("SAUCE_ACCESS_KEY");
     public String sauce_region = System.getenv().getOrDefault("SAUCE_REGION", "us-west-1");
-    public String build_type = System.getenv().getOrDefault("BUILD_TYPE", "standard");
-    public String build = "BofA Demo " + System.currentTimeMillis();
+    public String build_type = System.getenv().getOrDefault("SAUCE_BUILD_TYPE", "Local");
+    public String build = "BofA Demo " + build_type + ' ' + System.currentTimeMillis();
 
     /**
      * ThreadLocal variable which contains the  {@link WebDriver} instance which is used to perform browser interactions with.
