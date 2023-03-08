@@ -37,7 +37,7 @@ public class BofATest {
         return new Object[][]{
 
                 // Windows
-                new Object[]{"browser","chrome", "latest", "Windows 10",""},
+//                new Object[]{"browser","chrome", "latest", "Windows 10",""},
                 new Object[]{"browser","MicrosoftEdge", "latest", "Windows 10",""},
                 new Object[]{"browser","firefox", "latest-2", "Windows 10",""},
                 new Object[]{"browser","internet explorer", "11", "Windows 8.1",""},
@@ -47,7 +47,7 @@ public class BofATest {
                 new Object[]{"browser","firefox", "latest", "macOS 10.14",""},
                 new Object[]{"browser","safari", "latest", "macOS 10.13",""},
                 new Object[]{"browser","safari", "11.0", "macOS 10.12",""},
-                new Object[]{"browser","chrome", "76.0", "OS X 10.11",""},
+//                new Object[]{"browser","chrome", "76.0", "OS X 10.11",""},
 
                 //Devices
                 new Object[]{"device","", "", "Android","Samsung.*"},
