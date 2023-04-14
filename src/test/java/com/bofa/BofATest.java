@@ -128,8 +128,7 @@ public class BofATest {
     public void BofAPageTitle(String type, String browser, String version, String os, String device, Method method) throws Exception {
 
         WebDriver driver = createDriver(type, browser, version, os, device, method.getName());
-//        driver.get("https://www.bankofamerica.com/");
-        driver.get("https://google.com");
+        driver.get("https://www.bankofamerica.com/");
         assertEquals(driver.getTitle(), "Bank of America - Banking, Credit Cards, Loans and Merrill Investing");
     }
     @Test(dataProvider = "hardCodedBrowsers")
